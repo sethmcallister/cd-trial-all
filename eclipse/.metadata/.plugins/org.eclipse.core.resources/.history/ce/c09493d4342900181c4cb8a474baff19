@@ -1,0 +1,167 @@
+package xyz.sethy.cd.extended;
+
+import java.io.ByteArrayOutputStream;
+import java.io.DataOutputStream;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.logging.Level;
+
+import cpw.mods.fml.common.network.PacketDispatcher;
+import cpw.mods.fml.common.network.Player;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.network.packet.Packet250CustomPayload;
+import net.minecraft.world.World;
+import net.minecraftforge.common.IExtendedEntityProperties;
+import xyz.sethy.cd.Main;
+
+public class ExtendedPlayer implements IExtendedEntityProperties {
+	// Variable that is static and final (Static meaning it has a global scope, and other classes can use it, and final meaning it cannot be changed), it has the data type of a String, and is the property name of this data that is
+	public static final String EXT_PROP_NAME = "waterProp";
+	// A final entityPlayer, which is used to refer to when loading it from by using an EntityPlayer
+	private final EntityPlayer player;
+	// A float that is the players current water level
+	private float waterLevel;
+	// A float that is the max water that a player can have, this means it can be changed (Armour means they can drink more water)
+	private float maxWaterLevel;
+	
+	// A float that is the players current exercise level
+	private float exerciseLevel;
+	// A float that is the players maximum exercise level
+	private float maxExerciseLevel;
+
+	// Class constructor, has the accepts the parameter of EntityPlayer
+	public ExtendedPlayer(final EntityPlayer player) {
+		// Assigns the class variable of player, to the variable passed by the parameter of player
+		this.player = player;
+		// Assigns the players current water level to the float value of 20
+		this.waterLevel = 20f;
+		// Assigns the players max water level to the float value of 20
+		this.maxWaterLevel = 20f;
+		
+		this.exerciseLevel = 20f;
+		this.maxExerciseLevel = 20f;
+		
+		// Register an extended property within the player object, the name of EXT_PROP_NAME, and this an instance of this class
+		player.registerExtendedProperties(EXT_PROP_NAME, this);
+	}
+	
+	// A proceeder that returns the ExtenedPlayer object that is associated with that player.
+	public static final ExtendedPlayer get(final EntityPlayer player) {
+		// Returns an object that is found in the players extedenedProperties, with the same name as EXT_PROP_NAME and then is blindly casted to an ExtendedPlayer object
+		return (ExtendedPlayer) player.getExtendedProperties(EXT_PROP_NAME);
+	}
+
+	// Overriding the saveNBTData function in the god/super class
+	@Override
+	public void saveNBTData(NBTTagCompound compound) {
+		// Creates a new NPTTagCompund object
+		NBTTagCompound properties = new NBTTagCompound();
+
+		// 
+		properties.setFloat("currentWaterLevel", this.waterLevel);
+		properties.setFloat("maxWaterLevel", this.maxWaterLevel);
+		properties.setFloat("currentExerciseLevel", this.exerciseLevel);
+		properties.setFloat("maxExerciseLevel", this.maxExerciseLevel);
+		
+		compound.setTag(EXT_PROP_NAME, properties);
+	}
+
+	@Override
+	public void loadNBTData(NBTTagCompound compound) {
+		NBTTagCompound properties = (NBTTagCompound) compound.getTag(EXT_PROP_NAME);
+
+		this.waterLevel = properties.getFloat("currentWaterLevel");
+		this.maxWaterLevel = properties.getFloat("maxWaterLevel");
+		this.exerciseLevel = properties.getFloat("currentExerciseLevel");
+		this.maxExerciseLevel = properties.getFloat("maxExerciseLevel");
+	}
+
+	// Empty code block
+	@Override
+	public void init(Entity entity, World world) {}
+	
+	// Returns a boolean if the player can use an amount of water, removes the amount of water from the player
+	public boolean useWater(final float amount) {
+		this.waterLevel -= amount;
+		if (this.waterLevel < 0) {
+			this.waterLevel = 0.0f;
+			return false;
+		}
+		return true;
+	}
+	
+	// 
+	public boolean useExerciseEnergy(final float amount) {
+		this.exerciseLevel -= amount;
+		if (this.waterLevel < 0) {
+			this.exerciseLevel = 0.0f;
+		}
+		return true;
+	}
+	
+	public void replenishWater(final float amount) {
+		this.waterLevel = (this.waterLevel + amount > maxWaterLevel ? maxWaterLevel : this.waterLevel + amount);
+	}
+	
+	public void replenishEnergy(final float amount) {
+		this.exerciseLevel = (this.exerciseLevel + amount > maxExerciseLevel ? maxExerciseLevel : this.exerciseLevel + amount);
+	}
+	
+	public float getCurrentWaterLevel() {
+		return this.waterLevel;
+	}
+	
+	public void setCurrentWaterLevel(float level) {
+		this.waterLevel = level < this.maxWaterLevel ? level : this.maxWaterLevel;
+	}
+	
+	public float getMaxWaterLevel() {
+		return this.maxWaterLevel;
+	}
+	
+	public void setMaxWaterLevel(final float level) {
+		this.maxWaterLevel = level;
+	}
+	
+	public float getCurrentExerciseLevel() {
+		return this.exerciseLevel;
+	}
+	
+	public void setCurrentExerciseLevel(final float level) {
+		this.exerciseLevel = level < this.maxExerciseLevel ? level : this.maxExerciseLevel;
+	}
+	
+	public float getMaxExerciseLevel() {
+		return this.maxExerciseLevel;
+	}
+	
+	public void setMaxExerciseLevel(final float level) {
+		this.maxExerciseLevel = level;
+	}
+	
+	public void sync() {
+		if(player.worldObj.isRemote)
+			return;
+		
+		EntityPlayerMP playerMP = (EntityPlayerMP) player;
+		
+		ByteArrayOutputStream outputStream = new ByteArrayOutputStream(8);
+		DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
+	
+		try {
+			dataOutputStream.writeFloat(this.maxWaterLevel);
+			dataOutputStream.writeFloat(this.waterLevel);
+			dataOutputStream.writeFloat(this.maxExerciseLevel);
+			dataOutputStream.writeFloat(this.exerciseLevel);
+			outputStream.close();
+			dataOutputStream.close();
+		} catch (Exception e) {
+			Main.LOGGER.log(Level.SEVERE, e.getMessage(), e.getCause());
+		}
+		
+		Packet250CustomPayload packet = new Packet250CustomPayload("extendedPlayer", outputStream.toByteArray());
+		PacketDispatcher.sendPacketToPlayer(packet, (Player)playerMP);
+	}
+}

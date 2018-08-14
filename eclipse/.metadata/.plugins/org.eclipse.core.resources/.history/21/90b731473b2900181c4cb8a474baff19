@@ -1,0 +1,44 @@
+package xyz.sethy.cd.packet;
+
+import java.io.ByteArrayInputStream;
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.util.logging.Level;
+
+import cpw.mods.fml.common.network.IPacketHandler;
+import cpw.mods.fml.common.network.Player;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.network.INetworkManager;
+import net.minecraft.network.packet.Packet250CustomPayload;
+import xyz.sethy.cd.Main;
+import xyz.sethy.cd.extended.ExtendedPlayer;
+
+public class WaterPacketHandler implements IPacketHandler {
+
+	@Override
+	public void onPacketData(INetworkManager manager, Packet250CustomPayload packet, Player player) {
+		// Checks if the packet channel if that of 'extendedPlayer'
+		if (packet.channel.equals("extendedPlayer")) {
+			// if it is the correct packet, then it calls the handleExtendedPlayer method
+			handleExtendedPlayer(packet, player);
+		}
+	}
+	
+	
+	private void handleExtendedPlayer(Packet250CustomPayload packet, Player player) {
+		// Creates a DataInputStream from the packet data variable
+		DataInputStream inputStream = new DataInputStream(new ByteArrayInputStream(packet.data));
+		// Gets the extenedPlayer associated with the player
+		ExtendedPlayer extendedPlayer = ExtendedPlayer.get((EntityPlayer) player);
+		try {
+			// Sets the fields in the extendedPlayer based on the values being recieved in the packe 
+			extendedPlayer.setMaxWaterLevel(inputStream.readFloat());
+			extendedPlayer.setCurrentWaterLevel(inputStream.readFloat());
+			extendedPlayer.setMaxExerciseLevel(inputStream.readFloat());
+			extendedPlayer.setCurrentExerciseLevel(inputStream.readFloat());
+			inputStream.close();
+		} catch (IOException e) {
+			Main.LOGGER.log(Level.SEVERE, e.getMessage(), e.getCause());
+		}
+	}
+}

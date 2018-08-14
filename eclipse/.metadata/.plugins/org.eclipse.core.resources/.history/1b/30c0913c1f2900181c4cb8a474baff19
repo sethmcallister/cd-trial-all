@@ -1,0 +1,11 @@
+package xyz.sethy.cd.listener;
+
+import net.minecraftforge.client.event.GuiOpenEvent;
+import net.minecraftforge.event.ForgeSubscribe;
+
+public class GUIOpenListener {
+	@ForgeSubscribe
+	public void onGuiOpen(final GuiOpenEvent event) {
+		
+	}
+}

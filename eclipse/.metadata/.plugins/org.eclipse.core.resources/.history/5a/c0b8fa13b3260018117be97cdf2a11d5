@@ -1,0 +1,47 @@
+package xyz.sethy.cd.exercise;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+import com.google.gson.JsonObject;
+
+public class ExerciseLearner {
+	private final float easierPerBlockWalk;
+	private final float easierPerBlockPlaced;
+	private final float easierPerAttack;
+	private final AtomicInteger blocksWalked;
+	private final AtomicInteger blocksPlaced;
+	private final AtomicInteger timesAttacked;
+	
+	public ExerciseLearner() {
+		this.easierPerBlockWalk = 0.03f;
+		this.easierPerBlockPlaced = 0.02f;
+		this.easierPerAttack = 0.01f;
+		this.blocksWalked = new AtomicInteger();
+		this.blocksPlaced = new AtomicInteger();
+		this.timesAttacked = new AtomicInteger();
+	}
+
+	public void load() {
+		
+	}
+	
+	public void save() {
+		JsonObject object = new JsonObject();
+		object.addProperty("blocksWalked", this.blocksWalked.get());
+		object.addProperty("blocksPlaced", this.blocksPlaced.get());
+		object.addProperty("timesAttacked", this.blocksPlaced.get());
+
+	}
+	
+	public float getBlockWalkToUseEnergy() {
+		return this.easierPerBlockWalk * (this.blocksWalked.get() % this.easierPerBlockWalk);
+	}
+	
+	public float getBlockPlaceToUseEnergy() {
+		return this.easierPerBlockPlaced * (this.blocksWalked.get() % this.easierPerBlockPlaced);
+	}
+	
+	public float getAttackToUseEnergy() {
+		return this.easierPerAttack * (this.timesAttacked.get() % this.easierPerAttack);
+	}
+}

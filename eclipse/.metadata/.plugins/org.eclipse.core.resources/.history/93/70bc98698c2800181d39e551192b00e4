@@ -1,0 +1,9 @@
+
+public class MathTest {
+	public static void main(String[] args) {
+		for (int i = 0; i < 10000; i++) {
+			 float var = 2 - ((i / 1.03f) / (i + 1));
+			 System.out.printf("%s score after %s iterations \n", var, i);
+		}
+	}
+}

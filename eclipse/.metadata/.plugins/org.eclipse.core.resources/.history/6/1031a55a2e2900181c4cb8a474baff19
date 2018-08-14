@@ -1,0 +1,8 @@
+package xyz.sethy.cd.listener;
+
+import net.minecraftforge.event.world.WorldEvent;
+
+public class WorldSaveListener {
+	@ForgeSubscribe
+	public void onWorldUnload(WorldEvent.Unload)
+}

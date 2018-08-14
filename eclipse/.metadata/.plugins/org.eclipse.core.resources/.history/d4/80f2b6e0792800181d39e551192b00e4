@@ -1,0 +1,14 @@
+
+public class MathTest {
+	public static void main(String[] args) {
+		for (int i = 0; i < 100; i++) {
+			 float var = Interger.MAX_VALUE - ((i * 1.03f) - i);
+			 var = Math.abs(var);
+			 while (var >= 1.0f) {
+				 var--;
+				 System.out.print("subtract 1 \n");
+			 }
+			 System.out.printf("Energy used if walked %s blocks %s \n", i, var);
+		}
+	}
+}

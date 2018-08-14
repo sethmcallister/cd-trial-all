@@ -1,0 +1,16 @@
+[
+{
+  "modid": "CD",
+  "name": "CD - Trial",
+  "description": "Mod made for CD trial.",
+  "version": "1.1-SNAPSHOT",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Seth McAllister"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

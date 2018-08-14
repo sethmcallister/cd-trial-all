@@ -1,0 +1,13 @@
+
+public class MathTest {
+	public static void main(String[] args) {
+		for (int i = 0; i < 100; i++) {
+			 int value = 1;
+			 if (i <= 33) {
+				 value++;
+			 }
+			 float var =  value - ((i * 1.03f) - i);
+			 System.out.printf("Energy used if walked %s blocks %s \n", i, var);
+		}
+	}
+}

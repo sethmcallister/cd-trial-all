@@ -1,0 +1,12 @@
+package xyz.sethy.cd.listener;
+
+import net.minecraftforge.event.ForgeSubscribe;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
+
+public class PlayerDamageEntityListener {
+	@ForgeSubscribe
+	public void onPlayerDamageEntity(final LivingAttackEvent event) {
+		
+	}
+
+}

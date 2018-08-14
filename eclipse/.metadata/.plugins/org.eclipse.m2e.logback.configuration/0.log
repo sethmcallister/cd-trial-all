@@ -1,0 +1,526 @@
+2018-03-04 11:51:36,673 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-04 11:55:21,486 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-04 12:05:52,022 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @644326ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-04 12:05:52,405 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-04 12:05:52,461 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-04 12:05:52,461 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-04 12:05:52,464 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-04 12:05:52,531 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5c3c2058{/help,null,AVAILABLE}
+2018-03-04 12:05:52,566 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@215db9d6{HTTP/1.1,[http/1.1]}{127.0.0.1:34119}
+2018-03-04 12:05:52,567 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @644872ms
+2018-03-04 16:41:35,926 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@215db9d6{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-03-04 16:41:35,930 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-03-04 16:41:35,955 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5c3c2058{/help,null,UNAVAILABLE}
+2018-03-04 19:39:14,459 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-04 20:30:57,891 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-04 20:42:06,226 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-04 20:48:39,203 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @419698ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-04 20:48:39,472 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-04 20:48:39,519 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-04 20:48:39,519 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-04 20:48:39,521 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-04 20:48:39,586 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@78f25ea{/help,null,AVAILABLE}
+2018-03-04 20:48:39,623 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@9fa5d56{HTTP/1.1,[http/1.1]}{127.0.0.1:35269}
+2018-03-04 20:48:39,627 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @420122ms
+2018-03-05 19:24:27,696 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-05 19:32:14,415 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @495629ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-05 19:32:14,638 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-05 19:32:14,677 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-05 19:32:14,677 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-05 19:32:14,679 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-05 19:32:14,734 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@18f6d51d{/help,null,AVAILABLE}
+2018-03-05 19:32:14,768 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@21fd7722{HTTP/1.1,[http/1.1]}{127.0.0.1:38077}
+2018-03-05 19:32:14,768 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @495983ms
+2018-03-05 21:38:43,987 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-05 22:04:06,735 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @1557113ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-05 22:04:07,100 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-05 22:04:07,167 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-05 22:04:07,167 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-05 22:04:07,171 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-05 22:04:07,261 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@11a0d4b5{/help,null,AVAILABLE}
+2018-03-05 22:04:07,335 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@22f32b2d{HTTP/1.1,[http/1.1]}{127.0.0.1:40413}
+2018-03-05 22:04:07,355 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1557726ms
+2018-03-07 10:58:29,239 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@22f32b2d{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-03-07 10:58:29,242 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-03-07 10:58:29,271 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@11a0d4b5{/help,null,UNAVAILABLE}
+2018-03-07 20:45:05,245 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-07 21:00:49,034 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @987394ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-07 21:00:49,385 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-07 21:00:49,670 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-07 21:00:49,670 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-07 21:00:49,695 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-07 21:00:49,894 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@4d3d88fd{/help,null,AVAILABLE}
+2018-03-07 21:00:50,023 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@44a45bae{HTTP/1.1,[http/1.1]}{127.0.0.1:35387}
+2018-03-07 21:00:50,024 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @988387ms
+2018-03-07 21:40:15,048 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-07 21:55:51,356 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @1102596ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-07 21:55:51,666 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-07 21:55:51,740 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-07 21:55:51,740 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-07 21:55:51,744 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-07 21:55:52,040 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@121800e6{/help,null,AVAILABLE}
+2018-03-07 21:55:52,317 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6d379854{HTTP/1.1,[http/1.1]}{127.0.0.1:33155}
+2018-03-07 21:55:52,318 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1103562ms
+2018-03-08 09:45:03,348 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6d379854{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-03-08 09:45:03,350 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-03-08 09:45:03,381 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@121800e6{/help,null,UNAVAILABLE}
+2018-03-08 18:55:19,231 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-08 18:59:51,431 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @301780ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-08 18:59:51,734 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-08 18:59:51,778 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-08 18:59:51,779 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-08 18:59:51,782 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-08 18:59:51,847 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1c26a444{/help,null,AVAILABLE}
+2018-03-08 18:59:51,894 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4136759c{HTTP/1.1,[http/1.1]}{127.0.0.1:37955}
+2018-03-08 18:59:51,898 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @302247ms
+2018-03-08 21:16:59,905 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-10 13:07:52,124 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-10 13:15:18,666 [Worker-7: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-10 13:23:48,949 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @538923ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-10 13:23:49,211 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-10 13:23:49,284 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-10 13:23:49,285 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-10 13:23:49,288 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-10 13:23:49,356 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3dda5bfa{/help,null,AVAILABLE}
+2018-03-10 13:23:49,393 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3cfef9ed{HTTP/1.1,[http/1.1]}{127.0.0.1:43113}
+2018-03-10 13:23:49,394 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @539369ms
+2018-03-10 13:30:05,196 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3cfef9ed{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-03-10 13:30:05,199 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-03-10 13:30:05,235 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3dda5bfa{/help,null,UNAVAILABLE}
+2018-03-10 13:34:56,492 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-10 13:35:33,915 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @92285ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-10 13:35:34,262 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-10 13:35:34,307 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-10 13:35:34,307 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-10 13:35:34,310 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-10 13:35:34,440 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@584ca70d{/help,null,AVAILABLE}
+2018-03-10 13:35:34,534 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6d177354{HTTP/1.1,[http/1.1]}{127.0.0.1:37541}
+2018-03-10 13:35:34,534 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @92907ms
+2018-03-10 13:45:29,036 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-10 13:52:35,122 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @450819ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-10 13:52:35,556 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-10 13:52:35,630 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-10 13:52:35,630 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-10 13:52:35,635 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-10 13:52:35,766 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7e91d6a5{/help,null,AVAILABLE}
+2018-03-10 13:52:35,923 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@380eb67b{HTTP/1.1,[http/1.1]}{127.0.0.1:33047}
+2018-03-10 13:52:35,923 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @451622ms
+2018-03-11 12:09:23,680 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-11 12:12:18,067 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @211944ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-11 12:12:18,411 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-11 12:12:18,467 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-11 12:12:18,467 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-11 12:12:18,470 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-11 12:12:18,542 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@529debde{/help,null,AVAILABLE}
+2018-03-11 12:12:18,573 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5b7b3b32{HTTP/1.1,[http/1.1]}{127.0.0.1:37629}
+2018-03-11 12:12:18,574 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @212453ms
+2018-03-11 16:06:45,911 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-11 16:20:57,248 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @873368ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-11 16:20:57,524 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-11 16:20:57,572 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-11 16:20:57,572 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-11 16:20:57,576 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-11 16:20:57,651 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3e93383c{/help,null,AVAILABLE}
+2018-03-11 16:20:57,693 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@18fe0119{HTTP/1.1,[http/1.1]}{127.0.0.1:41085}
+2018-03-11 16:20:57,694 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @873814ms
+2018-03-12 16:37:54,890 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-12 16:43:29,681 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-12 16:54:41,420 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @692685ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-12 16:54:41,772 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-12 16:54:41,812 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-12 16:54:41,812 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-12 16:54:41,814 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-12 16:54:41,877 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@b736e9c{/help,null,AVAILABLE}
+2018-03-12 16:54:41,959 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2f2e280{HTTP/1.1,[http/1.1]}{127.0.0.1:33139}
+2018-03-12 16:54:41,960 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @693226ms
+2018-03-13 10:05:28,015 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-13 10:14:51,414 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @586135ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-13 10:14:51,960 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-13 10:14:52,024 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-13 10:14:52,024 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-13 10:14:52,028 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-13 10:14:52,144 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@757c5d59{/help,null,AVAILABLE}
+2018-03-13 10:14:52,209 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@72f1b828{HTTP/1.1,[http/1.1]}{127.0.0.1:45787}
+2018-03-13 10:14:52,210 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @586931ms
+2018-03-13 11:13:55,005 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-13 11:19:06,156 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-13 11:36:41,642 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @1096072ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-13 11:36:42,554 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-13 11:36:42,706 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-13 11:36:42,706 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-13 11:36:42,716 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-13 11:36:42,925 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@374bb400{/help,null,AVAILABLE}
+2018-03-13 11:36:43,035 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@15fb6407{HTTP/1.1,[http/1.1]}{127.0.0.1:46531}
+2018-03-13 11:36:43,043 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1097473ms
+2018-03-13 11:37:02,231 [Worker-14: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:52) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+Caused by: java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280) ~[na:1.8.0_151]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192) ~[na:1.8.0_151]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126) ~[na:1.8.0_151]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45) ~[na:na]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262) ~[na:na]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161) ~[na:na]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:328) ~[na:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612) ~[na:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447) ~[na:na]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884) ~[na:na]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71) ~[na:na]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[na:na]
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:164) ~[na:na]
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:296) ~[org.apache.maven.resolver.transport.http_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:252) ~[org.apache.maven.resolver.transport.http_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:68) ~[org.apache.maven.resolver.spi_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:456) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:359) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	... 13 common frames omitted
+2018-03-13 11:37:02,251 [Worker-11: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:37:02,263 [Worker-1: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:37:02,776 [Worker-7: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:38:32,337 [Worker-9: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:38:37,334 [Worker-0: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:49:53,760 [Worker-1: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:49:58,276 [Worker-2: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:49:59,629 [Worker-5: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:52:09,040 [Worker-12: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:52:24,903 [Worker-3: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:52:41,702 [Worker-8: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:52:53,914 [Worker-12: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:53:07,809 [Worker-0: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:53:20,621 [Worker-9: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:54:03,072 [Worker-15: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 11:54:12,683 [Worker-9: Resolving model org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.orbit.bundles:com.google.gson:call:zip:2.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.1.v20171220-1141.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.1.v20180124-1137.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20171217-1306.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Failure to transfer org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from http://download.eclipse.org/recommenders/models/oxygen/ was cached in the local repository, resolution will not be reattempted until the update interval of models has elapsed or updates are forced. Original error: Could not transfer artifact org.eclipse.orbit.bundles:com.google.gson:zip:call:2.0.0-SNAPSHOT from/to models (http://download.eclipse.org/recommenders/models/oxygen/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.newException(DefaultUpdateCheckManager.java:247) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultUpdateCheckManager.checkArtifact(DefaultUpdateCheckManager.java:215) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.gatherDownloads(DefaultArtifactResolver.java:594) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:512) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2018-03-13 13:22:20,988 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-14 21:02:44,963 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-14 21:25:46,448 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @1433242ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-14 21:25:47,370 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-14 21:25:47,509 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-14 21:25:47,510 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-14 21:25:47,519 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-14 21:25:47,868 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@9106b8e{/help,null,AVAILABLE}
+2018-03-14 21:25:47,980 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@59319f38{HTTP/1.1,[http/1.1]}{127.0.0.1:38293}
+2018-03-14 21:25:47,987 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1434784ms
+2018-03-15 17:00:43,996 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-15 17:05:42,801 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @337542ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-15 17:05:43,192 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-15 17:05:43,280 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-15 17:05:43,280 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-15 17:05:43,283 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2018-03-15 17:05:43,416 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2afdba63{/help,null,AVAILABLE}
+2018-03-15 17:05:43,466 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@73a085b4{HTTP/1.1,[http/1.1]}{127.0.0.1:36337}
+2018-03-15 17:05:43,469 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @338210ms
+2018-03-15 17:21:12,920 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-15 17:31:36,545 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @652220ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-15 17:31:37,001 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-15 17:31:37,061 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-15 17:31:37,061 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-15 17:31:37,066 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-15 17:31:37,232 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5dc82749{/help,null,AVAILABLE}
+2018-03-15 17:31:37,298 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7a7001b4{HTTP/1.1,[http/1.1]}{127.0.0.1:45035}
+2018-03-15 17:31:37,299 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @652975ms
+2018-03-15 22:46:14,086 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7a7001b4{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-03-15 22:46:14,095 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-03-15 22:46:14,156 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5dc82749{/help,null,UNAVAILABLE}
+2018-03-16 10:14:50,935 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-16 10:21:56,084 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @473187ms to org.eclipse.jetty.util.log.Slf4jLog
+2018-03-16 10:21:57,426 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-03-16 10:21:57,734 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2018-03-16 10:21:57,735 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2018-03-16 10:21:57,746 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 600000ms
+2018-03-16 10:21:58,103 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5ff56064{/help,null,AVAILABLE}
+2018-03-16 10:21:58,155 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@21dc3624{HTTP/1.1,[http/1.1]}{127.0.0.1:32817}
+2018-03-16 10:21:58,158 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @475263ms
+2018-03-17 17:14:51,538 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@21dc3624{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-03-17 17:14:51,552 [Stop Help Server] INFO  org.eclipse.jetty.server.session - Stopped scavenging
+2018-03-17 17:14:51,616 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5ff56064{/help,null,UNAVAILABLE}
+2018-03-17 17:27:31,026 [Worker-3: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

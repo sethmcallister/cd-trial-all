@@ -1,0 +1,10 @@
+package xyz.sethy.cd.listener;
+
+import net.minecraftforge.event.ForgeSubscribe;
+
+public class PlayerBlockBreakListener {
+	@ForgeSubscribe
+	public void onPlayerBlockBreak(final BlockBreakEvents event) {
+		
+	}
+}

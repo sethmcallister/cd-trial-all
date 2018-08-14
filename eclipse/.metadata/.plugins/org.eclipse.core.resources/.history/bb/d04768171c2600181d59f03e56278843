@@ -1,0 +1,12 @@
+package xyz.sethy.cd.gui;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.gui.Gui;
+
+@SideOnly(Side.CLIENT)
+public class ExerciseGUI extends Gui {
+	public ExerciseGUI() {
+		super();
+	}
+}
